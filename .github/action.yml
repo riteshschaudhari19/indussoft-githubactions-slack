@@ -1,0 +1,24 @@
+name: "Send Message to Slack"
+description: "ddsdsd dsd"
+branding:
+  icon: "message-circle"
+  color: "orange"
+inputs:
+  slack-bot-user-oauth-access-token:
+    description: ""
+    required: true
+  slack-channel:
+    description: ""
+    required: true
+  slack-text:
+    description: ""
+    required: true
+  slack-function:
+    description: "send-message (https://api.slack.com/methods/chat.postMessage)"
+    required: false
+output:
+  slack-result:
+    description: "ssdd"
+runs:
+  using: "node12",
+  main: "dist/index.js"
