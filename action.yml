@@ -16,7 +16,7 @@ inputs:
   slack-function:
     description: "send-message (https://api.slack.com/methods/chat.postMessage)"
     required: false
-output:
+outputs:
   slack-result:
     description: "ssdd"
 runs:
