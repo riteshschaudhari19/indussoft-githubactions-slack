@@ -25,7 +25,8 @@
   "homepage": "https://github.com/riteshschaudhari19/indussoft-githubactions-slack#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0"
+    "@actions/github": "^6.0.0",
+    "https-proxy-agent": "^7.0.6"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.3",
