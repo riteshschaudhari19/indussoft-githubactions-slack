@@ -5,17 +5,18 @@ branding:
   color: "orange"
 inputs:
   slack-bot-user-oauth-access-token:
-    description: ""
+    description: "dssdd"
     required: true
   slack-channel:
-    description: ""
+    description: "sdddsd"
     required: true
   slack-text:
-    description: ""
+    description: "sdsdsd"
     required: true
   slack-function:
     description: "send-message (https://api.slack.com/methods/chat.postMessage)"
     required: false
+
 outputs:
   slack-result:
     description: "ssdd"
